@@ -13,3 +13,16 @@ HOST = config["host"]
 PORT = config["port"]
 MAX_CLIENTS = config["max_clients"]
 BUFFER_SIZE = config["buffer_size"]
+
+
+# try:
+#     with open(BASE_DIR / "config_server.json", "r") as file:
+#         config = json.load(file)
+
+# except FileNotFoundError:
+#     print("[error] Configuration file not found")
+#     raise SystemExit(1)
+
+# except json.JSONDecodeError:
+#     print("[error] Invalid JSON configuration")
+#     raise SystemExit(1)
